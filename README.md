@@ -1,17 +1,19 @@
-# HandGestureControl
+# HandGestureMacControll
 
-This Python script utilizes the MediaPipe library to perform hand gesture recognition using a webcam. It detects various hand gestures and triggers corresponding actions, such as moving the mouse pointer, clicking, and scrolling.
+handGestureMacControll is a simple python program for detecting hand gesture and use it gesture for controll MacBook device such as move the cursor, click or adjust the volume without using mouse or any keyboard.
 
-## Prerequisites
+## Installation
 
-Before running the script, make sure you have the following installed:
-
-- Python 3
-- OpenCV
-- MediaPipe
-- PyAutoGUI
-
-You can install the required dependencies using the following command:
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install opencv-python mediapipe pyautogui
+pip install mediapipe pyautogui opencv-python
+```
+
+## Usage
+
+- All finger to move cursor
+- Close your thumb while others finger are extend is for clicking
+- Index and middle finger for scroll down
+- Only index finger for scroll up
+- Thumb and index finger for volume adjustment
